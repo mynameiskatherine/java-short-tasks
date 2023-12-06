@@ -10,6 +10,9 @@ import java.nio.file.Files;
 import java.util.Arrays;
 
 public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello, world");
+    }
 
     @SneakyThrows
     public static void save(Path filePath, Car car) {
