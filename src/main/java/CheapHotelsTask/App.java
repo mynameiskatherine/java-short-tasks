@@ -24,6 +24,10 @@ public class App {
         return result.isPresent() ? result.get() : Map.of();
     }
 
+    public static Map<String, Object> findTheCheapestService() {
+        return findTheCheapestService(Map.of());
+    }
+
     private static Double getCost(Map<String, Object> serviceHotelMap) {
         Map<String, Object> hotelInfo = new ObjectMapper().convertValue(serviceHotelMap.get("hotel"), new TypeReference<Map<String, Object>>() { });
         return (Double) hotelInfo.get("cost");
