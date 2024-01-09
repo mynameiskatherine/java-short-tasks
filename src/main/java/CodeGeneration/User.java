@@ -7,17 +7,17 @@ import lombok.NoArgsConstructor;
 import lombok.Value;
 
 // BEGIN
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
-// END
-public class User {
-    @JsonProperty
-    int id;
-    @JsonProperty
-    String firstName;
-    @JsonProperty
-    String lastName;
-    @JsonProperty
-    int age;
-}
+//@Getter
+//@AllArgsConstructor
+//@NoArgsConstructor
+//// END
+//public class User {
+//    @JsonProperty
+//    int id;
+//    @JsonProperty
+//    String firstName;
+//    @JsonProperty
+//    String lastName;
+//    @JsonProperty
+//    int age;
+//}
