@@ -10,21 +10,25 @@ import java.util.*;
 
 public class App {
 
-    public static void main(String[] args) throws JsonProcessingException {
-        Object array1 = new String[]{"1", "2"};
-        Object array2 = new Integer[][]{{1, 2},{7, 8, 9}};
-        Object array3 = new String[]{"1", "2"};
-        Object array4 = new int[][]{{1, 2},{7, 8, 9}};
-        Object map1 = Map.of("id", "1", "array", "[1,2]");
-        Object map2 = Map.of("id", "1", "array", "[1,2]");
-        Object list1 = List.of(4,5,6);
-        Object list2 = List.of(4,5,6);
-        List<Object> list3 = Arrays.asList(array1);
-        List<Object> list4 = Arrays.asList(array3);
-        Object object1 = null;
-        Object object2 = 3;
-        //Object object3 = new Integer(3);
-        List<Object> list = List.of(array1, array2, map1, list1);
+    public static void main(String[] args) {
+        short sh = 12;
+        long by = 7;
+        var sum = sh + by;
+        System.out.println(sh + " " + by + " " + sum);
+//        Object array1 = new String[]{"1", "2"};
+//        Object array2 = new Integer[][]{{1, 2},{7, 8, 9}};
+//        Object array3 = new String[]{"1", "2"};
+//        Object array4 = new int[][]{{1, 2},{7, 8, 9}};
+//        Object map1 = Map.of("id", "1", "array", "[1,2]");
+//        Object map2 = Map.of("id", "1", "array", "[1,2]");
+//        Object list1 = List.of(4,5,6);
+//        Object list2 = List.of(4,5,6);
+//        List<Object> list3 = Arrays.asList(array1);
+//        List<Object> list4 = Arrays.asList(array3);
+//        Object object1 = null;
+//        Object object2 = 3;
+//        //Object object3 = new Integer(3);
+//        List<Object> list = List.of(array1, array2, map1, list1);
 //        for (Object e : list) {
 //            ObjectMapper mapper = new ObjectMapper();
 //            if (e instanceof Object[]) {
